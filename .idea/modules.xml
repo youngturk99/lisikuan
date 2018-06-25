@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/custom/custom.iml" filepath="$PROJECT_DIR$/custom/custom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dobboapi/dobboapi.iml" filepath="$PROJECT_DIR$/dobboapi/dobboapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbozookeeper-example.iml" filepath="$PROJECT_DIR$/dubbozookeeper-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
+    </modules>
+  </component>
+</project>

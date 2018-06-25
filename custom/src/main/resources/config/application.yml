@@ -1,0 +1,18 @@
+server:
+  context-path: /dubboCustom
+  port: 8888
+  #jsp热加载开发时启用
+  jsp-servlet:
+    init-parameters:
+      development: true
+spring:
+  application:
+    name: dubboCustoma
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+dubbo:
+  registry:
+    protocol: zookeeper
+    address: 10.150.27.133:2181,10.150.27.134:2181,10.150.27.135:2181

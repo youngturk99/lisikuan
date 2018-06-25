@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: dubbozookeeper
+
+dubbo:
+  registry:
+    protocol: zookeeper
+    address: 10.150.27.133:2181,10.150.27.134:2181,10.150.27.135:2181
+  protocol:
+    name: dubbo
+    port: 20880
+server:
+  port: 8181
+  context-path: /dubboProvider
